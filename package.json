@@ -1,5 +1,5 @@
 {
-  "name": "pure-functions",
+  "name": "matchers",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/barsich/pure-functions.git"
+    "url": "git+https://github.com/barsich/matchers.git"
   },
   "author": "barsich",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/barsich/pure-functions/issues"
+    "url": "https://github.com/barsich/matchers/issues"
   },
-  "homepage": "https://github.com/barsich/pure-functions#readme",
+  "homepage": "https://github.com/barsich/matchers#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
