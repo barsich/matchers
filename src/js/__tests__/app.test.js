@@ -9,3 +9,12 @@ test('should correctly sort', () => {
   ];
   expect(expected).toEqual(sortByHp(players));
 });
+
+test('toBe test', () => {
+  const expected = [
+    { name: 'маг', health: 100 },
+    { name: 'лучник', health: 80 },
+    { name: 'мечник', health: 10 },
+  ];
+  expect(JSON.stringify(expected)).toBe(JSON.stringify(sortByHp(players)));
+});
