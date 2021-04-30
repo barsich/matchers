@@ -16,5 +16,5 @@ test('toBe test', () => {
     { name: 'лучник', health: 80 },
     { name: 'мечник', health: 10 },
   ];
-  expect(JSON.stringify(expected)).toBe(JSON.stringify(sortByHp(players)));
+  expect(expected).not.toBe(sortByHp(players));
 });
